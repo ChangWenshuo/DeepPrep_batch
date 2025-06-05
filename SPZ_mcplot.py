@@ -4,29 +4,9 @@
 # Filename: SPZ_mcplot.py
 # Author: Chang Wenshuo
 # Date: 6/5/2025
-
-"""
-This script processes motion correction parameter files from fMRI preprocessing, 
-generates motion parameter plots, and merges them into summary images for each subject.
-
-Functions:
-----------
-plot_motion(par_file):
-    Generates and displays motion parameter plots (rotations, translations, displacement) from a given FSL .par file using Nipype's PlotMotionParams interface.
-
-mcplot_merge(mc_images, out_path):
-    Merges a list of motion parameter plot images vertically into a single image and saves the result to the specified output path.
-
-Workflow:
----------
-1. Defines root, input, and output directories for the experiment.
-2. Finds all subject functional directories.
-3. For each subject:
-    a. Locates the motion correction parameter file (.par).
-    b. Generates motion parameter plots for rotations, translations, and displacement.
-    c. Collects the generated plot images.
-    d. Merges the images into a single summary image per subject and saves it to the output directory.
-"""
+#
+# This script processes motion correction parameter files from fMRI preprocessing, 
+# generates motion parameter plots, and merges them into summary images for each subject
 
 from os.path import join as opj
 from glob import glob as gg
