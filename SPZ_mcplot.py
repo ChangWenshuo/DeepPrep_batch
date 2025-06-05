@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# Filename: SPZ_mcplot.py
+# Author: Chang Wenshuo
+# Date: 6/5/2025
+
 """
 This script processes motion correction parameter files from fMRI preprocessing, 
 generates motion parameter plots, and merges them into summary images for each subject.
