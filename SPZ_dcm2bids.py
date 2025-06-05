@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# Filename: SPZ_dcm2bids.py
+# Author: Chang Wenshuo
+# Date: 6/5/2025
+#
 # This script is used to convert the dicom files to BIDS format using dcm2bids
 
 import os
