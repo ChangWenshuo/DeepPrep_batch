@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#
+# Filename: SPZ_deeepprep.py
+# Author: Chang Wenshuo
+# Date: 6/5/2025
+#
 # This script is used to run DeepPrep for preprocessing MRI data
 
 import os
